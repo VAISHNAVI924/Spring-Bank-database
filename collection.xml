@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+		xmlns:c="http://www.springframework.org/schema/c"
+	
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+	<bean name="bank" class="collectionconstructor.Bank" c:id="2345" c:name="kavya">
+	<property name="bankid">
+	<list><value>SBI</value></list></property>
+	<property name="bankname"><set><value>9839290</value></set></property>
+	<property name="bankidname"><map>
+	<entry key="142628" value="bank of borada"></entry></map></property></bean>
+
+</beans>
